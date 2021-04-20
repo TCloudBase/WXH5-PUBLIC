@@ -75,4 +75,5 @@
 ## 项目信息
 - 作者：腾讯云云开发团队-zira
 - 有效性：仅用于在云调用原生支持之前做中间方案，以最新更新为准
-- 答疑QQ群：601134960
+- 交流群：
+- ![](https://acc.cloudbase.vip/scan/res/cloudbase.jpg)
