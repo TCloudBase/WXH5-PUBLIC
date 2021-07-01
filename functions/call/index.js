@@ -16,7 +16,7 @@ exports.main = async (event) => {
   } = event.queryStringParameters
 
   // 判断get参数是否存在消息签名，如果存在将作为微信服务器消息推送处理
-  if (msg_signature != null) {
+  if (msg_signature != null || echostr!=null) {
     // 判断body请求体是否存在，如果不存在可能是微信服务接入echo
     if (msgBody != null) {
       // 解析body的信息，拿出encrypt加密的信息（安全模式下）
